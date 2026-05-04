@@ -1,0 +1,5 @@
+torch
+torchvision
+torchaudio
+kagglehub==1.0.0
+ultralytics==8.4.38
