@@ -75,11 +75,12 @@ if __name__ == "__main__":
    
     model.train(
         data="./data.yaml", # path to data config file
-        epochs=30,
+        epochs=50,
         imgsz=512,
         optimizer="AdamW",
-        batch=16,
+        batch=32,
         device=0,  # auto-detect GPU (set to 'cpu' to force CPU)
         amp=True, # automatic mixed precision for faster training on compatible hardware
+        lr0 = 0.003, # initial learning rate
         verbose=False # supresses terminal output
     )
