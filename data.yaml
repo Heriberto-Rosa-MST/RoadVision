@@ -1,0 +1,27 @@
+train: export/images
+val: export/images
+test: export/images
+
+path: C:\Users\hjros\HJR Projecs\RoadVision-Real-Time-Object-Detection-for-Autonomous-Driving\data\
+nc: 11
+names:
+  [
+    "biker",
+    "car",
+    "pedestrian",
+    "trafficLight",
+    "trafficLight-Green",
+    "trafficLight-GreenLeft",
+    "trafficLight-Red",
+    "trafficLight-RedLeft",
+    "trafficLight-Yellow",
+    "trafficLight-YellowLeft",
+    "truck",
+  ]
+
+roboflow:
+  workspace: roboflow-gw7yv
+  project: self-driving-car
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/roboflow-gw7yv/self-driving-car/dataset/3
