@@ -75,7 +75,7 @@ if __name__ == "__main__":
    
     model.train(
         data="./data.yaml", # path to data config file
-        epochs=5,
+        epochs=30,
         imgsz=512,
         optimizer="AdamW",
         batch=16,
