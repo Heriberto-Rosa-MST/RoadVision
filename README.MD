@@ -22,16 +22,15 @@ This project focuses on:
 ---
 
 ## Project Structure
+```bash
 RoadVision/
-│── src/ # Training + inference scripts
-│── runs/ # Model outputs (training + detection results)
-│── data/ # Dataset (images + labels)
-│── demo-trimmed.mp4 # Demo video input
-│── requirements.txt # Dependencies
-
-
----
-
+├── src/                 # Training + inference scripts
+├── runs/                # Model outputs
+├── data/                # Dataset
+├── demo/                # Demo video & annotated results
+├── data.yaml            # Dataset paths & class defintions
+└── requirements.txt     # Dependencies
+```
 ## Setup
 
 ### 1. Clone the Repository
