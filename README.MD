@@ -6,7 +6,7 @@ Deep Learning-Based Road Object Detection System
 
 This project focuses on:
 - Training an object detection model using the **YOLO (You Only Look Once)** framework  
-- Detecting road-relevant objects (e.g., vehicles, pedestrians, signage)  
+- Detecting road-relevant objects (e.g., vehicles, pedestrians, traffic lights)  
 - Running inference on a demo video to visualize real-world performance  
 - Evaluating model performance after multiple training epochs  
 
