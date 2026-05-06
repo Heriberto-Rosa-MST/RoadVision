@@ -9,14 +9,14 @@ parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # path to demo folder
 demo_dir = os.path.join(parent_dir, "demo")
 # demo video directory
-demo_video_path = os.path.join(demo_dir, "demo-trimmed.mp4")
+demo_video_path = os.path.join(demo_dir, "demo-trim.mp4")
 
 
 model.predict(
     source=demo_video_path,
     save=True,
     conf=0.25,
-    device=0,
+    device='cpu',
     project=demo_dir,
     name="demo_results"
 )
