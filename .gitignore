@@ -1,3 +1,6 @@
 __pycache__/
 .roadvision
 data/
+yolo26n.pt
+yolov8n.pt
+*.avi
