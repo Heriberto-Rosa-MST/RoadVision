@@ -84,3 +84,7 @@ if __name__ == "__main__":
         lr0 = 0.003, # initial learning rate
         verbose=False # supresses terminal output
     )
+
+    # final test evaluation on test set
+    model = YOLO("runs/detect/train2/weights/best.pt") # load best model from training
+    model.val(data="data.yaml", split="test")
